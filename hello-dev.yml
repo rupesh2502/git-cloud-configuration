@@ -1,2 +1,12 @@
 user:
  message: Hello User this is Development Configuration
+ 
+spring:
+ datasource:
+    url: jdbc:mysql://localhost:3306/legato_db
+    username: root
+    password: root
+ jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
