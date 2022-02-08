@@ -1,0 +1,13 @@
+user:
+ message: Hello User this is Development Configuration
+ 
+spring:
+ datasource:
+    url: jdbc:mysql://localhost:3306/legato_db
+    username: root
+    password: '{cipher}e5c830d1c74d79a80d38bd6f9590128ae5388c5e34bcb59bd0a38277457ec7f0'
+    driver-class-name: com.mysql.jdbc.Driver
+ jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
